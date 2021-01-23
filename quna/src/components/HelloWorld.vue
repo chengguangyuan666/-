@@ -16,7 +16,7 @@
           href="https://forum.vuejs.org"
           target="_blank"
         >
-          Forum
+          我说算你狠
         </a>
       </li>
       <li>

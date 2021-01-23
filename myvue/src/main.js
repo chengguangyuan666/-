@@ -4,9 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-import { Button } from 'vant' // 按需引入   教程https://segmentfault.com/a/1190000019822589?utm_source=tag-newest
+import { Button, Icon } from 'vant' // 按需引入   教程https://segmentfault.com/a/1190000019822589?utm_source=tag-newest
 
 Vue.config.productionTip = false
+Vue.use(Icon)
 Vue.use(Button)
 
 /* eslint-disable no-new */

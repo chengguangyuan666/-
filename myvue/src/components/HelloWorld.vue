@@ -4,6 +4,7 @@
     <h2>Essential Links</h2>
   <van-button type="default">Default</van-button>
   <van-button type="primary">Primary</van-button>
+  <van-icon name="chat-o" />
   </div>
 </template>
 

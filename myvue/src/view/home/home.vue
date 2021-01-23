@@ -1,18 +1,14 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-  <van-button type="default">Default</van-button>
-  <van-button type="primary">Primary</van-button>
-  <van-icon name="chat-o" />
+  <!-- //基础组件放置 -->
   <header-search></header-search>
   </div>
 </template>
 
 <script>
-import HeaderSearch from '../../components/header/header-search'
+import HeaderSearch from '../../components/header/header-search' // 引入基础组件
 export default {
-  components: {
+  components: { // 基础组件注入
     HeaderSearch
   },
   name: 'HelloWorld',

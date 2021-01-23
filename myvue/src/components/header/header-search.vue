@@ -1,6 +1,11 @@
 <template>
   <div class="hello">
-    <div>{{msg}}</div>
+    <van-search
+  v-model="value"
+  shape="round"
+  background="#4fc08d"
+  placeholder="请输入城市，景点，主题"
+/>
   </div>
 </template>
 
@@ -9,7 +14,7 @@ export default {
   name: 'HeaderSearch', // 基础组件，驼峰命名
   data () {
     return {
-      msg: 'header搜索组件'
+      value: ''
     }
   }
 }

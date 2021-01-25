@@ -2,14 +2,17 @@
   <div class="hello">
   <!-- //基础组件放置 -->
   <header-search></header-search>
+    <swiper></swiper>
   </div>
 </template>
 
 <script>
 import HeaderSearch from '../../components/header/header-search' // 引入基础组件
+import Swiper from '../../components/swiper/swiper'
 export default {
   components: { // 基础组件注入
-    HeaderSearch
+    HeaderSearch,
+    Swiper
   },
   name: 'HelloWorld',
   data () {

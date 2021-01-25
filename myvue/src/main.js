@@ -4,12 +4,14 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-import { Button, Icon, Search } from 'vant' // vant按需引入   教程https://segmentfault.com/a/1190000019822589?utm_source=tag-newest
+import { Button, Icon, Search, Swipe, SwipeItem } from 'vant' // vant按需引入   教程https://segmentfault.com/a/1190000019822589?utm_source=tag-newest
 
 Vue.config.productionTip = false
 Vue.use(Icon)
 Vue.use(Button)
 Vue.use(Search)
+Vue.use(Swipe)
+Vue.use(SwipeItem)
 
 /* eslint-disable no-new */
 new Vue({
